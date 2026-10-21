@@ -1,0 +1,94 @@
+﻿NEXT DROP WHEEL - CONTRAT DE LICENCE UTILISATEUR / END-USER LICENCE AGREEMENT
+
+Copyright (c) 2026 Kwaku IT. Tous droits réservés. All rights reserved.
+
+==================================================
+FRANÇAIS
+==================================================
+
+1. Objet. Le présent contrat régit l'utilisation du logiciel Next Drop Wheel (le « Logiciel »),
+   édité par Kwaku IT. En installant ou en utilisant le Logiciel, vous acceptez ce contrat. Si vous
+   ne l'acceptez pas, n'installez pas et n'utilisez pas le Logiciel.
+
+2. Propriété. Le Logiciel, son code, ses textes, ses thèmes et son icône sont la propriété
+   exclusive de Kwaku IT et sont protégés par le droit d'auteur. Le Logiciel vous est concédé sous
+   licence, il ne vous est pas vendu.
+
+3. Licence accordée. Kwaku IT vous accorde une licence personnelle, non exclusive et non
+   transférable d'installer et d'utiliser le Logiciel, pour un usage privé ou professionnel, sur
+   les ordinateurs dont vous avez l'usage.
+
+4. Restrictions. Sauf accord écrit de Kwaku IT ou exception prévue par la loi, vous ne pouvez pas :
+   copier le Logiciel au-delà de ce qu'exige son utilisation ; le distribuer, le vendre, le louer
+   ou le mettre à disposition de tiers ; le modifier, l'adapter ou en créer des œuvres dérivées ;
+   le décompiler, le désassembler ou en extraire le code source ; retirer ou altérer les mentions
+   de droits qu'il contient.
+
+5. Composants tiers. Le Logiciel embarque des bibliothèques et polices de tiers, chacune régie par
+   sa propre licence (liste et textes dans le fichier THIRD_PARTY_NOTICES.md et dans le Logiciel,
+   Réglages > À propos). Le présent contrat ne restreint aucun droit que ces licences vous
+   accordent sur ces composants.
+
+6. Données et logiciels tiers. Le Logiciel lit les fichiers de musique que vous choisissez et,
+   s'il est installé, une copie en lecture seule de la bibliothèque du logiciel rekordbox présente
+   sur votre ordinateur. Il ne modifie pas ces fichiers et n'envoie aucune donnée sur Internet
+   (voir PRIVACY.md). rekordbox est une marque d'AlphaTheta Corporation et Camelot une marque de
+   Mixed In Key LLC ; le Logiciel n'est ni affilié à ces sociétés, ni approuvé par elles. Il vous
+   appartient de respecter les conditions d'utilisation de ces logiciels.
+
+7. Absence de garantie. Le Logiciel est fourni « en l'état », sans garantie d'aucune sorte,
+   expresse ou implicite, notamment d'adéquation à un usage particulier ou d'absence d'erreur,
+   dans les limites permises par la loi.
+
+8. Responsabilité. Dans les limites permises par la loi, Kwaku IT ne pourra être tenue responsable
+   d'aucun dommage indirect, perte de données ou manque à gagner résultant de l'utilisation ou de
+   l'impossibilité d'utiliser le Logiciel. Rien dans le présent contrat ne limite les droits que
+   la loi impérative accorde aux consommateurs.
+
+9. Fin du contrat. La licence prend fin automatiquement si vous ne respectez pas le présent
+   contrat. Vous devez alors cesser d'utiliser le Logiciel et le supprimer.
+
+10. Droit applicable. Le présent contrat est régi par le droit français.
+
+==================================================
+ENGLISH
+==================================================
+
+1. Scope. This agreement governs the use of the Next Drop Wheel software (the "Software"),
+   published by Kwaku IT. By installing or using the Software, you accept this agreement. If you
+   do not accept it, do not install or use the Software.
+
+2. Ownership. The Software, its code, texts, themes and icon are the exclusive property of
+   Kwaku IT and are protected by copyright. The Software is licensed to you, not sold.
+
+3. Licence granted. Kwaku IT grants you a personal, non-exclusive, non-transferable licence to
+   install and use the Software, for private or professional use, on the computers you use.
+
+4. Restrictions. Unless Kwaku IT agrees in writing or the law allows it, you may not: copy the
+   Software beyond what its use requires; distribute, sell, rent or make it available to third
+   parties; modify, adapt or create derivative works of it; decompile, disassemble or extract its
+   source code; remove or alter the rights notices it contains.
+
+5. Third-party components. The Software embeds third-party libraries and fonts, each under its
+   own licence (list and texts in THIRD_PARTY_NOTICES.md and in the Software, Settings > About).
+   This agreement does not restrict any right those licences grant you on those components.
+
+6. Data and third-party software. The Software reads the music files you choose and, when it is
+   installed, a read-only copy of the rekordbox library on your computer. It does not modify those
+   files and sends no data over the Internet (see PRIVACY.md). rekordbox is a trademark of
+   AlphaTheta Corporation and Camelot a trademark of Mixed In Key LLC; the Software is not
+   affiliated with or endorsed by these companies. You are responsible for complying with the
+   terms of use of that software.
+
+7. No warranty. The Software is provided "as is", without warranty of any kind, express or
+   implied, including fitness for a particular purpose or freedom from errors, to the extent
+   permitted by law.
+
+8. Liability. To the extent permitted by law, Kwaku IT shall not be liable for any indirect
+   damage, data loss or loss of profit arising from the use of, or inability to use, the Software.
+   Nothing in this agreement limits the rights mandatory law grants to consumers.
+
+9. Termination. The licence ends automatically if you breach this agreement. You must then stop
+   using the Software and delete it.
+
+10. Governing law. This agreement is governed by French law.
