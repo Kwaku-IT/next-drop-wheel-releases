@@ -4,6 +4,45 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [2.0.0] - 2026-10-22
+
+### Bibliothèque sous la roue
+
+- **Modifié** : la **bibliothèque est sous la roue**, dans un panneau qui se replie (sa barre reste
+  visible en bas de la fenêtre) ; l'onglet Bibliothèque disparaît. À gauche les sources du vivier,
+  en haut les critères, à droite l'explorateur. **Ctrl+B** déplie ou replie le panneau. Il est
+  replié au lancement dès que rekordbox ou un dossier fournit des morceaux, et ne s'ouvre seul que
+  s'il n'y a rien à tirer.
+- **Ajouté** : **toute la bibliothèque rekordbox est reprise**, même sans dossier choisi : ses
+  morceaux (avec album, durée, date d'ajout, couleur), ses playlists et dossiers de playlists (pas
+  les playlists intelligentes) et ses My Tags. Une grosse collection est lue par paquets, sans
+  figer l'application, et relue d'elle-même quand rekordbox change.
+- **Ajouté** : choix du **vivier** de la roue, mémorisé : playlists, dossiers et sous-dossiers,
+  genre ou famille de genres, plage de BPM, note, couleur, My Tag, ajout récent, morceaux analysés
+  seulement ; toute la bibliothèque par défaut. La roue tire dans le vivier dès le tirage suivant,
+  et se désactive avec un message s'il est vide. Cocher une playlist, un dossier ou une clé USB y
+  remet tous ses morceaux, même ceux décochés un par un.
+- **Ajouté** : dans la liste des morceaux, une **case avant la pré-écoute** indique si le morceau
+  est dans le vivier ; la cocher l'y ajoute seul (même s'il ne répond pas aux critères), la
+  décocher l'en retire.
+- **Ajouté** : **clés USB rekordbox** : une clé (ou un disque) préparée par rekordbox pour les
+  platines apparaît d'elle-même dans les sources, section « Clés USB », avec ses playlists. Une
+  case la met tout entière dans le vivier, ses playlists se cochent une à une. Débranchée, elle
+  disparaît et le vivier revient à ce qu'il était sans elle ; rebranchée, elle revient. Ses
+  morceaux se pré-écoutent et se glissent comme les autres, et rien n'est jamais écrit sur la clé.
+- **Ajouté** : **morceaux introuvables** : un fichier absent est repéré à la première utilisation
+  (pré-écoute, glisser-déposer, chargement dans le set, tirage) ; le morceau reste listé mais
+  grisé et sort du vivier, et si la roue tombe dessus elle relance seule son tirage. Un nouveau
+  scan ou une nouvelle lecture de rekordbox lui redonne sa chance.
+- **Modifié** : sans rekordbox, les playlists et les critères propres à rekordbox (note, ajout,
+  couleur, My Tags) restent visibles mais grisés, avec la raison ; ajouter un dossier reste
+  possible dans tous les cas.
+- **Modifié** : le filtre des morceaux à analyser (« Voir seulement ceux-là ») s'affiche au-dessus
+  de la liste, avec « Tout afficher », et choisir une source le lève.
+- **Modifié** : retirer un dossier garde dans la bibliothèque ses morceaux que rekordbox connaît.
+- **Corrigé** : après le retrait d'un dossier, le nombre de morceaux et le résumé du dernier scan
+  n'affichent plus les anciennes valeurs.
+
 ## [1.1.0] - 2026-10-22
 
 - **Modifié** : mise à jour de composants internes, sans changement visible.
@@ -43,5 +82,6 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[2.0.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.0.0
 [1.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.1.0
 [1.0.1]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.0.1

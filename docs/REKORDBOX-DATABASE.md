@@ -19,10 +19,6 @@ Quand : au lancement, après chaque scan, et dès que rekordbox enregistre sa bi
 `master.db` / `-wal` vérifiée toutes les 15 secondes). La ligne d'état du panneau Bibliothèque dit
 ce qui a été lu.
 
-Code : rekordbox-database-reader.ts,
-sync-rekordbox.ts,
-rekordbox-watcher.ts.
-
 ## Risques et parades
 
 | Risque                                                                                                                                             | Gravité   | Parade                                                                                                                                                                                                                                                                                                                                         |
@@ -33,7 +29,7 @@ rekordbox-watcher.ts.
 | **Copie incohérente** pendant que rekordbox écrit                                                                                                  | Faible    | Le `-wal` est copié avec la base ; au pire une lecture voit l'état d'avant, et la suivante (15 s plus tard) rattrape.                                                                                                                                                                                                                          |
 | **Module natif** : premier binaire natif du projet.                                                                                                | Faible    | Binaires précompilés Node-API (pas de recompilation, compatibles Electron 45), décompressés hors de l'`asar`, seuls ceux de la plateforme cible sont livrés. Vérifié dans une version empaquetée.                                                                                                                                              |
 | **Données personnelles** : la base contient aussi l'historique, les playlists, les cue points.                                                     | Faible    | Sont lus : `djmdContent` (+ artiste, genre, tonalité, album, couleur), les playlists classiques et leurs dossiers (`djmdPlaylist`, `djmdSongPlaylist`, sans les playlists intelligentes) et les My Tags (`djmdMyTag`, `djmdSongMyTag`) ; ni l'historique ni les cue points. Rien n'est envoyé sur le réseau ; la copie temporaire est effacée. |
-| **Aspect juridique** : lire un format propriétaire chiffré.                                                                                        | À évaluer | L'app ne lit que les données de **l'utilisateur, sur son propre ordinateur**, sans les modifier ni les redistribuer (interopérabilité). Les conditions d'utilisation de rekordbox sont à relire avant une diffusion publique.                                                                                                                  |
+| **Aspect juridique** : lire un format propriétaire chiffré.                                                                                        | À évaluer | L'app ne lit que les données de **l'utilisateur, sur son propre ordinateur**, sans les modifier ni les redistribuer (interopérabilité).                                                                                                                                                                                                        |
 | **rekordbox 5** (base `.edb`, autre format)                                                                                                        | Connu     | Non lu : état « rekordbox introuvable », l'import XML reste proposé.                                                                                                                                                                                                                                                                           |
 
 ## Clés USB exportées par rekordbox
@@ -56,14 +52,7 @@ L'historique, les cue points et les fichiers d'analyse (`USBANLZ`) ne sont pas l
 
 **Clé de OneLibrary** : `exportLibrary.db` est chiffrée avec SQLCipher (paramètres SQLCipher 4).
 La phrase de passe, identique pour toutes les clés, est celle publiée (sous forme obscurcie) par
-pyrekordbox, `pyrekordbox/onelibrary/database.py` ; constante `DATABASE_KEY` de
-device-library-reader.ts.
-
-Code : device-library-reader.ts,
-pdb-parser.ts,
-device-detector.ts,
-device-service.ts,
-device-repository.ts.
+pyrekordbox.
 
 | Risque                                                                                            | Gravité | Parade                                                                                                                                                                                         |
 | ------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
