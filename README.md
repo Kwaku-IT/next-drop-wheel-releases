@@ -5,7 +5,7 @@ s'appuyant sur vos analyses rekordbox (tonalité Camelot, tempo, style, énergie
 bureau Windows, éditée par **Kwaku IT**.
 
 Ce dépôt contient uniquement les **versions publiées** et leurs documents : le code source n'y est
-pas. Version actuelle : **1.0.1**.
+pas. Version actuelle : **1.1.0**.
 
 ## Télécharger
 

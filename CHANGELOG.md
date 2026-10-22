@@ -4,6 +4,10 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [1.1.0] - 2026-10-22
+
+- **Modifié** : mise à jour de composants internes, sans changement visible.
+
 ## [1.0.1] - 2026-10-21
 
 Première version publique de Next Drop Wheel, la roue du hasard qui propose au DJ le prochain
@@ -39,4 +43,5 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[1.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.1.0
 [1.0.1]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.0.1
