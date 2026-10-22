@@ -6,9 +6,6 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 
 ## [2.2.0] - 2026-10-22
 
-- **Ajouté** : en mode compact, glisser une proposition sur un deck rekordbox l'**enchaîne** dès
-  qu'elle est lâchée : elle entre dans le set et la roue repart pour la suivante, sans cliquer sur
-  « Enchaîner ».
 - **Corrigé** : la roue et ses propositions ne disparaissent plus quelques secondes après un
   glisser-déposer vers rekordbox, ou simplement pendant que rekordbox joue (en mode compact
   surtout) : « Enchaîner » reste disponible.
