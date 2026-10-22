@@ -4,6 +4,41 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [2.1.0] - 2026-10-22
+
+### Interface allégée
+
+- **Modifié** : le morceau **en cours** n'a plus sa carte à droite de la roue : il ouvre le
+  panneau « Set en cours », mis en avant (badge « En cours », tonalité en couleur, artiste),
+  au-dessus des morceaux déjà joués. Ce panneau passe **au-dessus du « Mode de jeu »
+  (anciennement « Règles du jeu »)**, qui se **replie** : il est fermé à chaque lancement, son
+  en-tête garde l'ambiance active sur une ligne, et un bouton à gauche du titre le déplie.
+- **Ajouté** : dans « Set en cours », **survoler un morceau** (ou y placer le focus au clavier)
+  affiche une petite carte flottante, dense : tonalité Camelot en couleur, titre, artiste, BPM,
+  style, énergie, année et durée. Échap la referme ; elle reste toujours entière dans la fenêtre.
+- **Modifié** : le **carrousel des propositions** disparaît, **la roue en tient lieu**. Après un
+  tirage, les parts proposées restent entourées de pointillés et toutes les autres passent en
+  gris ; la molette ou les flèches du clavier sur la roue, ou un clic sur une part en pointillés,
+  changent de proposition, et la roue tourne pour l'amener sous le repère. Une part en
+  pointillés se glisse aussi sur un deck rekordbox, comme une ligne du set. La proposition
+  affichée tient sur une seule ligne sous la roue (tonalité, titre, BPM, compatibilité et son
+  bouton de pré-écoute), suivie de « Enchaîner », qui la garde et relance aussitôt la roue pour
+  la suite ; la survoler montre la même petite carte que le set, avec en plus ses chances d'être
+  tirée et le pourquoi de chaque règle. « Choisir moi-même » reste sous la roue.
+- **Ajouté** : **mode compact**, pour garder la roue à côté de rekordbox sans le cacher : le
+  bouton à droite des onglets (ou Ctrl+Maj+M) réduit la fenêtre à la roue seule, petite et
+  toujours au premier plan, déplaçable par sa barre de titre. Le bouton central lance la roue,
+  la proposition affichée tient sur une ligne avec « Enchaîner », une part en pointillés se
+  glisse directement sur un deck rekordbox, et le bouton en haut à gauche (ou Ctrl+Maj+M) rend
+  la fenêtre complète à sa taille et à sa place d'avant. Le mode et l'emplacement de la petite
+  fenêtre sont retrouvés au lancement suivant.
+- **Modifié** : dans Réglages > Apparence, les **réglages fins** passent en haut et le choix du
+  thème en bas.
+- **Modifié** : **aide mise à jour** : nouvelles rubriques « Le set », « La bibliothèque et le
+  vivier », « Mode compact » et « Réglages » (thèmes, réglages fins, langue, mises à jour), chaque
+  ambiance expliquée, tous les raccourcis clavier et plus de cas de dépannage. Un « ? » ouvre
+  aussi l'aide depuis le set et l'apparence.
+
 ## [2.0.0] - 2026-10-22
 
 ### Bibliothèque sous la roue
@@ -82,6 +117,7 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[2.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.1.0
 [2.0.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.0.0
 [1.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.1.0
 [1.0.1]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.0.1
