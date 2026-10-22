@@ -4,6 +4,15 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [2.2.0] - 2026-10-22
+
+- **Ajouté** : en mode compact, glisser une proposition sur un deck rekordbox l'**enchaîne** dès
+  qu'elle est lâchée : elle entre dans le set et la roue repart pour la suivante, sans cliquer sur
+  « Enchaîner ».
+- **Corrigé** : la roue et ses propositions ne disparaissent plus quelques secondes après un
+  glisser-déposer vers rekordbox, ou simplement pendant que rekordbox joue (en mode compact
+  surtout) : « Enchaîner » reste disponible.
+
 ## [2.1.0] - 2026-10-22
 
 ### Interface allégée
@@ -117,6 +126,7 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[2.2.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.2.0
 [2.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.1.0
 [2.0.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.0.0
 [1.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v1.1.0
