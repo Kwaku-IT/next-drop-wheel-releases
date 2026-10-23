@@ -4,6 +4,38 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [3.0.0] - 2026-10-23
+
+- **Corrigé** : un morceau que rekordbox situe sur un partage réseau (dans sa bibliothèque ou un
+  export XML) est affiché comme introuvable, et l'application ne tente plus jamais d'ouvrir ce
+  partage.
+
+### Défis de transition
+
+- **Ajouté** : la roue peut proposer un **défi** avec chaque morceau : un long blend, un bass swap,
+  un echo out, un effet Beat FX ou Color FX des tables DJM, une loop de sortie, une transition aux
+  seuls EQ... Une carte sous la proposition affichée donne la famille du défi (couleur et icône),
+  son niveau (facile, moyen ou expert), son nom et une consigne d'une ligne. Elle suit la
+  proposition choisie (molette, flèches, clic sur une part), et « Relancer le défi » en tire un
+  autre pour le même enchaînement.
+- **Ajouté** : en mode compact, le défi tient sur une ligne à côté de « Enchaîner », sans agrandir
+  la fenêtre ; sa consigne s'affiche au survol et un bouton le relance.
+- **Ajouté** : les défis se règlent en bas du « Mode de jeu » : interrupteur général (désactivés
+  par défaut), fréquence (à chaque proposition, une fois sur N tirages, ou seulement à la demande
+  avec « Tirer un défi »), familles activables une par une (enchaînement, effet, loop, geste) et
+  niveau maximal. Une famille au moins reste active. Les réglages sont gardés d'un lancement à
+  l'autre et comptent dès le tirage suivant.
+- **Ajouté** : « Enchaîner » garde le défi de la proposition retenue dans « Set en cours », même
+  après un redémarrage : un repère de couleur sur la ligne, le défi complet dans la carte de
+  survol, et le défi à faire maintenant à côté du morceau en cours. Les exports M3U8 et XML
+  rekordbox ne changent pas.
+- **Ajouté** : « Mes défis », sous les réglages des défis : écrivez vos propres défis (un nom, une
+  consigne d'une ligne, une famille et un niveau). Ils sont tirés avec ceux de l'application, selon
+  les mêmes familles et le même niveau, et peuvent être favorisés dans certaines situations (gros
+  écart de tempo, tonalités peu compatibles, énergie qui monte ou qui descend). Chacun s'active,
+  se modifie ou se supprime (avec « Annuler »), porte l'étiquette « Perso » sur la carte et dans le
+  set, et la liste se partage en fichier (export, et import qui ignore les doublons).
+
 ## [2.4.0] - 2026-10-23
 
 - **Ajouté** : Next Drop Wheel existe aussi pour **macOS**, pour les Mac à puce Apple comme pour
@@ -169,6 +201,7 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[3.0.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v3.0.0
 [2.4.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.4.0
 [2.3.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.3.0
 [2.2.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.2.0

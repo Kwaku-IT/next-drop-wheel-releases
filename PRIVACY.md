@@ -17,3 +17,15 @@ Même texte que dans l'application (**Réglages > À propos**).
   fois au premier lancement. Activée, elle lit seulement la liste des versions publiées sur GitHub
   (au lancement et une fois par jour), sans aucun identifiant ; rien n'est téléchargé ni installé
   sans l'accord de l'utilisateur. C'est la seule connexion réseau de l'application.
+- **Signaler un problème** : uniquement à la demande de l'utilisateur, l'application ouvre son
+  navigateur sur un signalement prérempli du dépôt public
+  [Kwaku-IT/next-drop-wheel-releases](https://github.com/Kwaku-IT/next-drop-wheel-releases/issues)
+  (signalement public, compte GitHub nécessaire) ou sa messagerie, avec un mail prérempli pour
+  `contact@kwaku-it.com`. L'application n'envoie rien elle-même : c'est l'utilisateur qui envoie,
+  depuis son navigateur ou sa messagerie. Le rapport joint lui est montré en entier avant : version
+  de l'application et du système, réglages d'interface (langue, thème), état des sources sans
+  détail (rekordbox trouvé ou non, nombre de morceaux, clé USB branchée ou non), dernières lignes
+  du journal, masquées. Il ne contient ni chemin de dossier, ni nom de fichier audio, ni titre de
+  morceau, ni nom d'utilisateur. La description saisie par l'utilisateur est envoyée telle qu'il
+  l'a écrite. La proposition d'envoyer un rapport après une erreur se désactive (« Ne plus
+  proposer », ou **Réglages > À propos**).
