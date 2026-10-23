@@ -4,6 +4,31 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [2.3.0] - 2026-10-23
+
+- **Amélioré** : les étiquettes de la roue (tonalité, tempo, titre) sont lisibles sur toutes les
+  parts et dans tous les thèmes, et les textes secondaires et les tonalités ont un meilleur
+  contraste. Les couleurs vives se concentrent sur la roue et sur « Enchaîner » : l'onglet actif, la
+  valeur de Chaos et le morceau en cours du set sont plus sobres.
+- **Amélioré** : navigation au clavier. Les flèches changent de proposition même quand le focus est
+  sur le bouton de la roue, deux boutons précédent et suivant encadrent la proposition affichée,
+  les modes de jeu se parcourent aux flèches, le curseur Chaos est annoncé correctement par les
+  lecteurs d'écran, et Ctrl+, ouvre les réglages.
+- **Amélioré** : la barre du haut tient sur la fenêtre à sa taille minimale, la liste du set défile
+  quand elle est longue, le « ? » d'aide de la roue rejoint les boutons sous la roue, et
+  l'application respecte les réglages de contraste élevé du système.
+- **Amélioré** : en mode compact, la roue est un peu plus petite pour laisser le titre du morceau
+  proposé lisible, « Enchaîner » passe en dessous, et la proposition se pré-écoute aussi, comme dans
+  la fenêtre principale.
+- **Modifié** : le journal de l'application (gardé sur l'ordinateur, pour un rapport de bug)
+  n'enregistre plus les chemins de vos fichiers.
+- **Corrigé** : une clé USB dont la bibliothèque rekordbox est anormalement volumineuse (ou
+  abîmée) n'est plus copiée sur le disque de l'ordinateur : elle est signalée illisible, sans
+  remplir le disque ni bloquer l'application.
+- **Corrigé** : la recherche des clés USB ne regarde plus que les clés USB et cartes mémoire.
+  Un lecteur réseau (surtout déconnecté) ne ralentit plus l'application, et n'est plus jamais
+  interrogé.
+
 ## [2.2.0] - 2026-10-22
 
 - **Corrigé** : la roue et ses propositions ne disparaissent plus quelques secondes après un
@@ -123,6 +148,7 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[2.3.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.3.0
 [2.2.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.2.0
 [2.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.1.0
 [2.0.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.0.0
