@@ -1,0 +1,53 @@
+name: Signaler un bug
+description: Un bug, un plantage ou un comportement inattendu de Next Drop Wheel (report a bug).
+labels: ['bug', 'à trier']
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Merci de prendre le temps de signaler un problème. Pour une faille de sécurité, n'utilisez
+        pas ce formulaire : voir SECURITY.md. Sans compte GitHub, utilisez le lien de contact par
+        mail. Vous pouvez écrire en français ou en anglais (English is fine too).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Ce qui s'est passé
+      description: Décrivez le problème avec vos mots (what happened?).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ce que vous attendiez
+      description: Le comportement que vous espériez (what did you expect?).
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Les actions qui mènent au problème, une par ligne (steps to reproduce).
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Version de Next Drop Wheel
+      description: Réglages > À propos.
+      placeholder: '2.4.0'
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Système et version de rekordbox
+      description: Votre système d'exploitation et, si besoin, la version de rekordbox.
+      placeholder: Windows 11, rekordbox 7.2
+  - type: textarea
+    id: report
+    attributes:
+      label: Rapport de diagnostic
+      description: >-
+        Collez ici le rapport de diagnostic copié depuis l'application. Ne collez rien de personnel
+        (noms, chemins de dossiers, adresses, mots de passe) : relisez-le avant d'envoyer.
+      render: text

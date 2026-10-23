@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Signaler par mail (sans compte GitHub)
+    url: mailto:contact@kwaku-it.com?subject=%5BNext%20Drop%20Wheel%5D%20Signalement%20de%20bug
+    about: Écrivez-nous si vous n'avez pas de compte GitHub.
