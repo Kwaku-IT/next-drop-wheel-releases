@@ -4,6 +4,27 @@ Les évolutions de Next Drop Wheel visibles dans l'application. Format inspiré 
 [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/), versions en
 [SemVer](https://semver.org/lang/fr/). Les versions les plus récentes sont en haut.
 
+## [2.4.0] - 2026-10-23
+
+- **Ajouté** : Next Drop Wheel existe aussi pour **macOS**, pour les Mac à puce Apple comme pour
+  les Mac Intel, en image disque `.dmg` à glisser dans Applications. L'application n'étant pas
+  encore signée par Apple, la première ouverture se fait par clic droit > Ouvrir.
+- **Ajouté** : sur macOS, une nouvelle version est annoncée comme sous Windows, et le bouton ouvre
+  la page de téléchargement (elle ne s'installe pas d'elle-même).
+- **Ajouté** : « Signaler un problème », dans Réglages > À propos et dans l'aide. Décrivez ce qui
+  s'est passé, relisez le rapport de diagnostic joint, montré en entier, puis envoyez-le sur GitHub
+  (un compte GitHub est nécessaire) ou par mail, ou copiez-le ou enregistrez-le pour le joindre
+  vous-même. Le rapport ne contient ni vos chemins de fichiers, ni les noms de vos fichiers audio, ni
+  votre nom d'utilisateur, et l'application n'envoie toujours rien elle-même : c'est vous qui
+  l'envoyez.
+- **Ajouté** : après une erreur, ou au lancement si la session précédente s'est mal terminée, un
+  bandeau discret propose d'envoyer un rapport. Il n'apparaît jamais pendant un tirage ni en mode
+  compact, au plus une fois par session, et se désactive par « Ne plus proposer » ou dans
+  Réglages > À propos.
+- **Ajouté** : l'écran affiché quand l'interface rencontre un problème propose de le signaler.
+- **Ajouté** : l'aide a une rubrique « Signaler un problème », et la section Confidentialité
+  d'À propos explique ce que contient un signalement et qui l'envoie.
+
 ## [2.3.0] - 2026-10-23
 
 - **Amélioré** : les étiquettes de la roue (tonalité, tempo, titre) sont lisibles sur toutes les
@@ -148,6 +169,7 @@ morceau à mixer.
   sans rien perdre ; si elle est irréparable, elle est mise de côté (jamais supprimée), une
   nouvelle est créée et rekordbox est relu aussitôt.
 
+[2.4.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.4.0
 [2.3.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.3.0
 [2.2.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.2.0
 [2.1.0]: https://github.com/Kwaku-IT/next-drop-wheel-releases/releases/tag/v2.1.0

@@ -19,9 +19,9 @@ Chromium qu'il contient sont livrées avec l'application dans `LICENSES.chromium
 | @fontsource-variable/orbitron | 5.3.0 | OFL-1.1 |
 | @fontsource-variable/space-grotesk | 5.3.0 | OFL-1.1 |
 | @fontsource-variable/unbounded | 5.3.0 | OFL-1.1 |
-| @koromix/koffi-darwin-arm64 | 3.3.2 | MIT |
-| @koromix/koffi-darwin-x64 | 3.3.2 | MIT |
-| @koromix/koffi-win32-x64 | 3.3.2 | MIT |
+| @koromix/koffi-darwin-arm64 | 3.3.3 | MIT |
+| @koromix/koffi-darwin-x64 | 3.3.3 | MIT |
+| @koromix/koffi-win32-x64 | 3.3.3 | MIT |
 | @nodable/entities | 3.1.0 | MIT |
 | @tokenizer/inflate | 0.5.1 | MIT |
 | @tokenizer/token | 0.3.0 | MIT |
@@ -41,7 +41,7 @@ Chromium qu'il contient sont livrées avec l'application dans `LICENSES.chromium
 | is-unsafe | 2.0.2 | MIT |
 | js-yaml | 4.3.2 | MIT |
 | jsonfile | 6.2.1 | MIT |
-| koffi | 3.3.2 | MIT |
+| koffi | 3.3.3 | MIT |
 | lazy-val | 1.0.5 | MIT |
 | lodash.escaperegexp | 4.1.2 | MIT |
 | lodash.isequal | 4.5.0 | MIT |
@@ -1059,7 +1059,7 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 ```
 
-## @koromix/koffi-darwin-arm64 3.3.2
+## @koromix/koffi-darwin-arm64 3.3.3
 
 ```text
 MIT License
@@ -1086,7 +1086,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-## @koromix/koffi-darwin-x64 3.3.2
+## @koromix/koffi-darwin-x64 3.3.3
 
 ```text
 MIT License
@@ -1113,7 +1113,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-## @koromix/koffi-win32-x64 3.3.2
+## @koromix/koffi-win32-x64 3.3.3
 
 ```text
 MIT License
@@ -1815,7 +1815,7 @@ OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHE
  ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-## koffi 3.3.2
+## koffi 3.3.3
 
 ```text
 MIT License
